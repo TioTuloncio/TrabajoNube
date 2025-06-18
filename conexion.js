@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-mongoose.connect("mongodb+srv://Dharko:ciD4KSdlfp7ZOIhi@dharko.i3bcvui.mongodb.net/big-data?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://felipemunoz2704:felipemunoz2704@cluster0.vrioqsa.mongodb.net/big-data?retryWrites=true&w=majority")
   .then(() => console.log('Conectado a MongoDB Atlas'))
   .catch((error) => console.error('Error conectando a MongoDB:', error));
 
